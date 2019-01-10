@@ -78,6 +78,8 @@ public class ReminderActivity extends AppCompatActivity
         final ReminderAdapter adapter = new ReminderAdapter();
         recyclerView.setAdapter(adapter);
 
+        //NIIIIIIIIGGGGGGGAAAAAAA
+
         reminderViewModel = ViewModelProviders.of(this).get(ReminderViewModel.class);
         reminderViewModel.getAllReminders().observe(this, new Observer<List<Reminder>>() {
             @Override
