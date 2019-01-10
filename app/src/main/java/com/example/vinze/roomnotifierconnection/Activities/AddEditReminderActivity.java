@@ -25,6 +25,8 @@ import java.util.EventListener;
 
 public class AddEditReminderActivity extends AppCompatActivity {
 
+    //joseph was here
+
     public static final String EXTRA_ID = "com.vinzenz.EXTRA_ID";
     public static final String EXTRA_MEDICATIONNAME = "com.vinzenz.EXTRA_MEDICATIONNAME";
     public static final String EXTRA_MORNINGTIME = "com.vinzenz.EXTRA_MORNINGTIME";
