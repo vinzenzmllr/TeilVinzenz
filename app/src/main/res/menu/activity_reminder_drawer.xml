@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HomePage"
+            android:icon="@drawable/ic_add"
+            android:title="Startseite" />
+        <item
+            android:id="@+id/nav_calc"
+            android:icon="@drawable/ic_close"
+            android:title="Berechnen" />
+        <item
+            android:id="@+id/nav_statistic"
+            android:icon="@drawable/ic_save"
+            android:title="Statistik" />
+    </group>
+
+
+
+</menu>
